@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
+  padding: .4em .75em .3em;
 }
 
 *, *::before, *::after {
@@ -11,14 +12,31 @@ div {
   padding: .5rem;
   text-align: center;
   color: #fff;
-  padding: .4em .75em .3em;
   text-decoration: none;
-  border-radius: 8px;
   display: block;
 }
 
+a {
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: .5rem;
+  border: 3px;
+}
+
+.normal {
+  font-size: 1.125rem;
+}
+
+.small {
+  font-size: .875rem;
+}
+
+.big {
+  font-size: 1.5rem;
+}
+
 .btn {
-  display: inline-block;
   background-color: black;
   color: white;
   font-size: 1.125rem;
@@ -27,26 +45,74 @@ div {
 .btn-subtle {
   background-color: #ccc;
   color: white;
-  font-size: 1.125rem;
 }
 
 .btn-ghost {
-  background-color: #ccc;
+  background-color: white;
+  color: black;
+}
+
+.normal .btn-ghost {
+  border: 3px solid #000;
+}
+
+.small .btn-ghost {
+  border: 3px solid #000;
+}
+
+.big .btn-ghost {
+  border: 3px solid #000;
+}
+
+.small .btn-small {
+  background-color: #000;
+  color: #fff;
+}
+
+.big .btn-big {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-warning {
+  background-color: #f33;
   color: white;
 }
 
-.btn:hover {
+.btn-small {
+  font-size: .875rem;
+}
 
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #666;
+  color: #fff;
 }
 
 .btn-subtle:hover {
-
+  background-color: #666;
+  color: #fff;
 }
 
 .btn-ghost:hover {
-
+  background-color: #666;
+  color: #fff;
 }
 
 .btn-warning:hover {
+  background-color: #666;
+  color: #fff;
+}
 
+.btn-small:hover {
+  background-color: #666;
+  color: #fff;
+}
+
+.btn-big:hover {
+  background-color: #666;
+  color: #fff;
 }
