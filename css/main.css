@@ -8,6 +8,11 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  padding: .4em .75em .3em;
+
+}
+
 div {
   padding: .5rem;
   text-align: center;
@@ -20,7 +25,7 @@ a {
   padding: .4em .75em .3em;
   border-radius: 8px;
   text-decoration: none;
-  border: 3px;
+  margin: 1em;
 }
 
 .normal {
@@ -64,9 +69,17 @@ a {
   border: 3px solid #000;
 }
 
+.btn-small {
+  font-size: .875rem;
+}
+
 .small .btn-small {
   background-color: #000;
   color: #fff;
+}
+
+.btn-big {
+  font-size: 1.5rem;
 }
 
 .big .btn-big {
@@ -77,14 +90,6 @@ a {
 .btn-warning {
   background-color: #f33;
   color: white;
-}
-
-.btn-small {
-  font-size: .875rem;
-}
-
-.btn-big {
-  font-size: 1.5rem;
 }
 
 .btn:hover {
